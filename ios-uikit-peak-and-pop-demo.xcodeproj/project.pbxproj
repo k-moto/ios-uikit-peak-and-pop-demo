@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC38C2C01EB33F46000E99D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38C2BF1EB33F46000E99D9 /* AppDelegate.swift */; };
+		BC38C2C21EB33F46000E99D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38C2C11EB33F46000E99D9 /* ViewController.swift */; };
+		BC38C2C51EB33F46000E99D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC38C2C31EB33F46000E99D9 /* Main.storyboard */; };
+		BC38C2C71EB33F46000E99D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC38C2C61EB33F46000E99D9 /* Assets.xcassets */; };
+		BC38C2CA1EB33F46000E99D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC38C2C81EB33F46000E99D9 /* LaunchScreen.storyboard */; };
+		BC38C2D51EB33F46000E99D9 /* ios_uikit_peak_and_pop_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38C2D41EB33F46000E99D9 /* ios_uikit_peak_and_pop_demoTests.swift */; };
+		BC38C2E01EB33FD6000E99D9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38C2DF1EB33FD6000E99D9 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC38C2D11EB33F46000E99D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC38C2B41EB33F46000E99D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC38C2BB1EB33F46000E99D9;
+			remoteInfo = "ios-uikit-peak-and-pop-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC38C2BC1EB33F46000E99D9 /* ios-uikit-peak-and-pop-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-uikit-peak-and-pop-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC38C2BF1EB33F46000E99D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC38C2C11EB33F46000E99D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC38C2C41EB33F46000E99D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC38C2C61EB33F46000E99D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC38C2C91EB33F46000E99D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC38C2CB1EB33F46000E99D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC38C2D01EB33F46000E99D9 /* ios-uikit-peak-and-pop-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-uikit-peak-and-pop-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC38C2D41EB33F46000E99D9 /* ios_uikit_peak_and_pop_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_uikit_peak_and_pop_demoTests.swift; sourceTree = "<group>"; };
+		BC38C2D61EB33F46000E99D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC38C2DF1EB33FD6000E99D9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC38C2B91EB33F46000E99D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC38C2CD1EB33F46000E99D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC38C2B31EB33F46000E99D9 = {
+			isa = PBXGroup;
+			children = (
+				BC38C2BE1EB33F46000E99D9 /* ios-uikit-peak-and-pop-demo */,
+				BC38C2D31EB33F46000E99D9 /* ios-uikit-peak-and-pop-demoTests */,
+				BC38C2BD1EB33F46000E99D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC38C2BD1EB33F46000E99D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC38C2BC1EB33F46000E99D9 /* ios-uikit-peak-and-pop-demo.app */,
+				BC38C2D01EB33F46000E99D9 /* ios-uikit-peak-and-pop-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC38C2BE1EB33F46000E99D9 /* ios-uikit-peak-and-pop-demo */ = {
+			isa = PBXGroup;
+			children = (
+				BC38C2E11EB33FEB000E99D9 /* Controllers */,
+				BC38C2BF1EB33F46000E99D9 /* AppDelegate.swift */,
+				BC38C2C61EB33F46000E99D9 /* Assets.xcassets */,
+				BC38C2C81EB33F46000E99D9 /* LaunchScreen.storyboard */,
+				BC38C2CB1EB33F46000E99D9 /* Info.plist */,
+			);
+			path = "ios-uikit-peak-and-pop-demo";
+			sourceTree = "<group>";
+		};
+		BC38C2D31EB33F46000E99D9 /* ios-uikit-peak-and-pop-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC38C2D41EB33F46000E99D9 /* ios_uikit_peak_and_pop_demoTests.swift */,
+				BC38C2D61EB33F46000E99D9 /* Info.plist */,
+			);
+			path = "ios-uikit-peak-and-pop-demoTests";
+			sourceTree = "<group>";
+		};
+		BC38C2E11EB33FEB000E99D9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC38C2C31EB33F46000E99D9 /* Main.storyboard */,
+				BC38C2C11EB33F46000E99D9 /* ViewController.swift */,
+				BC38C2DF1EB33FD6000E99D9 /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC38C2BB1EB33F46000E99D9 /* ios-uikit-peak-and-pop-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC38C2D91EB33F46000E99D9 /* Build configuration list for PBXNativeTarget "ios-uikit-peak-and-pop-demo" */;
+			buildPhases = (
+				BC38C2B81EB33F46000E99D9 /* Sources */,
+				BC38C2B91EB33F46000E99D9 /* Frameworks */,
+				BC38C2BA1EB33F46000E99D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-uikit-peak-and-pop-demo";
+			productName = "ios-uikit-peak-and-pop-demo";
+			productReference = BC38C2BC1EB33F46000E99D9 /* ios-uikit-peak-and-pop-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC38C2CF1EB33F46000E99D9 /* ios-uikit-peak-and-pop-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC38C2DC1EB33F46000E99D9 /* Build configuration list for PBXNativeTarget "ios-uikit-peak-and-pop-demoTests" */;
+			buildPhases = (
+				BC38C2CC1EB33F46000E99D9 /* Sources */,
+				BC38C2CD1EB33F46000E99D9 /* Frameworks */,
+				BC38C2CE1EB33F46000E99D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC38C2D21EB33F46000E99D9 /* PBXTargetDependency */,
+			);
+			name = "ios-uikit-peak-and-pop-demoTests";
+			productName = "ios-uikit-peak-and-pop-demoTests";
+			productReference = BC38C2D01EB33F46000E99D9 /* ios-uikit-peak-and-pop-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC38C2B41EB33F46000E99D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Eiji Kushida";
+				TargetAttributes = {
+					BC38C2BB1EB33F46000E99D9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					BC38C2CF1EB33F46000E99D9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC38C2BB1EB33F46000E99D9;
+					};
+				};
+			};
+			buildConfigurationList = BC38C2B71EB33F46000E99D9 /* Build configuration list for PBXProject "ios-uikit-peak-and-pop-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC38C2B31EB33F46000E99D9;
+			productRefGroup = BC38C2BD1EB33F46000E99D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC38C2BB1EB33F46000E99D9 /* ios-uikit-peak-and-pop-demo */,
+				BC38C2CF1EB33F46000E99D9 /* ios-uikit-peak-and-pop-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC38C2BA1EB33F46000E99D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC38C2CA1EB33F46000E99D9 /* LaunchScreen.storyboard in Resources */,
+				BC38C2C71EB33F46000E99D9 /* Assets.xcassets in Resources */,
+				BC38C2C51EB33F46000E99D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC38C2CE1EB33F46000E99D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC38C2B81EB33F46000E99D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC38C2E01EB33FD6000E99D9 /* DetailViewController.swift in Sources */,
+				BC38C2C21EB33F46000E99D9 /* ViewController.swift in Sources */,
+				BC38C2C01EB33F46000E99D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC38C2CC1EB33F46000E99D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC38C2D51EB33F46000E99D9 /* ios_uikit_peak_and_pop_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC38C2D21EB33F46000E99D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC38C2BB1EB33F46000E99D9 /* ios-uikit-peak-and-pop-demo */;
+			targetProxy = BC38C2D11EB33F46000E99D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC38C2C31EB33F46000E99D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC38C2C41EB33F46000E99D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC38C2C81EB33F46000E99D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC38C2C91EB33F46000E99D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC38C2D71EB33F46000E99D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC38C2D81EB33F46000E99D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC38C2DA1EB33F46000E99D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-uikit-peak-and-pop-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-peak-and-pop-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC38C2DB1EB33F46000E99D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-uikit-peak-and-pop-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-peak-and-pop-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BC38C2DD1EB33F46000E99D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-uikit-peak-and-pop-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-peak-and-pop-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-uikit-peak-and-pop-demo.app/ios-uikit-peak-and-pop-demo";
+			};
+			name = Debug;
+		};
+		BC38C2DE1EB33F46000E99D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-uikit-peak-and-pop-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-peak-and-pop-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-uikit-peak-and-pop-demo.app/ios-uikit-peak-and-pop-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC38C2B71EB33F46000E99D9 /* Build configuration list for PBXProject "ios-uikit-peak-and-pop-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC38C2D71EB33F46000E99D9 /* Debug */,
+				BC38C2D81EB33F46000E99D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC38C2D91EB33F46000E99D9 /* Build configuration list for PBXNativeTarget "ios-uikit-peak-and-pop-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC38C2DA1EB33F46000E99D9 /* Debug */,
+				BC38C2DB1EB33F46000E99D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC38C2DC1EB33F46000E99D9 /* Build configuration list for PBXNativeTarget "ios-uikit-peak-and-pop-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC38C2DD1EB33F46000E99D9 /* Debug */,
+				BC38C2DE1EB33F46000E99D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC38C2B41EB33F46000E99D9 /* Project object */;
+}
